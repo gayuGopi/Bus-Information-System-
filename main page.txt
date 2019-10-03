@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" type="text/css" href="stylee.css"/>
+
+	<title>Orchard Goodness</title>
+	<link rel="shortcut icon" type="image/png" href="logoonew.png"/>
+
+</head>
+<body class="main-pg">
+	 <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+     <!--nav bar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <a class="navbar-brand">
+            <img src="logoonew.png" style="width: 40px;height: 40px;"/> 
+        </a>
+      <span class="navbar-text" style="font-weight: 900;color:#ffffff; font-size:2vw;">
+        <a href="prot1.html"style="text-decoration: none;">Orchard Goodness</a>
+      </span>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown_target" href="#">LOCAL PRODUCE
+          <span class="caret"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           
+              <a class="dropdown-item" href="sub.html"> Apples</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdown-item" href="sub.html"> Oranges</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdown-item" href="sub.html"> Banana</a>
+              
+           </div>
+
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">EXPORTS
+          <span class="caret"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           
+              <a class="dropdown-item" href="#"> Papaya</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdown-item" href="#"> Mango</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdown-item" href="#"> Guava</a>
+              
+           </div>
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">IMPORTS
+          <span class="caret"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           
+              <a class="dropdown-item" href="#"> Mangosteen</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdown-item" href="#"> Dragon Fruit</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdown-item" href="#"> Durian Fruit</a>
+              
+           </div>
+
+        </li>
+      </ul>
+      </div>
+    </nav>
+ 	
+    <!--sale poster-->
+        <div class="content-wrapper" >
+
+   	        <img src="promo2.png" class="img-responsive" /> 
+   	         <div class="btn-wrapper">
+   	               <a class="btn" href="sub.html">SHOP NOW</a>   
+             </div>
+        </div>
+		
+
+
+</body>
+</html>

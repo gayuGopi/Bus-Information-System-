@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+
+	<title>Orchid Goodness</title>
+	<link rel="shortcut icon" type="image/png" href="logoo.png">
+
+</head>
+<body style="background-color:#E8DAEF;">
+	 <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+    <!--nav bar-->
+
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <a class="navbar-brand">
+        	<img src="logoonew.png" style="width: 40px;height: 40px;"/> 
+        </a>
+      <span class="navbar-text" style="font-weight: 900;color:#ffffff; font-size:2vw;">
+      	<a href="prot1.html"style="text-decoration: none;">Orchid Goodness</a>
+      </span>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">LOCAL PRODUCE
+          <span class="caret"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           
+              <a class="dropdwon-item" href="#"> Apples</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdwon-item" href="#"> Oranges</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdwon-item" href="#"> Banana</a>
+              
+           </div>
+
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">EXPORTS
+          <span class="caret"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           
+              <a class="dropdwon-item" href="#"> Papaya</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdwon-item" href="#"> Mango</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdwon-item" href="#"> Guava</a>
+              
+           </div>
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">IMPORTS
+          <span class="caret"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           
+              <a class="dropdwon-item" href="#"> Mangosteen</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdwon-item" href="#"> Dragon Fruit</a>
+              <div class="dropdown-divider" aria-labelledby="dropdown_target"></div>
+              <a class="dropdwon-item" href="#"> Durian Fruit</a>
+              
+           </div>
+
+        </li>
+      </ul>
+      </div>
+    </nav>
+
+
+<!--form-->
+	<form >
+		<div class="heading">
+			<img src="cart.png" style="width:100px;height:100px;"/>
+			<h1 style="margin-left:80px;margin-top:-80px;font-size: 50px; font-weight: 900; font-family:georgia;">Local
+			Produce</h1>
+	    </div>
+		
+		<br/>
+		<br/>
+		<div id="main" style="margin-left: 150px;">
+			<input type="checkbox" class="fruits" value="[0]" onclick="visibility();"><b>Apple</b>
+			<div id="b1" style="display: inline"> 
+				&nbsp;&nbsp;
+				<input type="number" id="count1" onclick="changecount1();">
+				<input type="text" Id="result1" value="¢0">			
+			</div>
+		<br/>
+		<br/>
+			<input type="checkbox" class="fruits" value="[1]" onclick="visibility();"><b>Orange</b> 
+			<div id="b2" style="display: inline;"> 
+		
+				<input type="number" id="count2" onclick="changecount2();">	
+				<input type="text" Id="result2" value="¢0">		
+			</div>
+			
+		<br/>
+		<br/>	
+			<input type="checkbox" class="fruits"  value="[2]" onclick="visibility();"><b>Banana</b> 
+			<div id="b3" style="display: inline;"> 
+		
+				<input type="number" id="count3" onclick="changecount3();">	
+				<input type="text" Id="result3" value="¢0">	
+
+			</div>
+		<br/>
+		<br/>
+			<button class="btn-primary" id="sub" onclick="display();" style="margin-left: 20%;">Checkout</button>
+		</div>	
+	</form>
+
+<!--price brochure-->
+	<div class="sale" style="margin-left: 55%;margin-right:13%; margin-top: -200px;font-size: 1.5vw; border: 1px solid;padding-left:50px; padding-top: 5px; background-image: url(bord222.jpg); " >
+		<h3 style="font-size: 2.5vw;font-family: georgia;">
+				<u>Today's Special Price</u>
+		</h3>
+	<p style="padding-left:50px; font-family: cursive;">
+		1.Apple-59 cents each<br/>
+		2.Orange-49 cents each<br/>
+		3.Banana-39 cents each<br/>
+
+	</p>
+	</div>
+
+<!--javascript functions-->
+	<script type="text/javascript">
+		//visibility function
+		function visibility()
+		{
+			var fruits= document.getElementsByClassName('fruits');
+			
+			if(fruits[0].checked)
+			{
+				document.getElementById('b1').style.display="inline";	
+				price1();	    
+			}
+			else
+			{
+				document.getElementById('result1').value="¢0";
+				document.getElementById('count1').value="";
+			}
+			if (fruits[1].checked)
+			{
+				document.getElementById('b2').style.display="inline";
+				price2();	
+			}
+			else
+			{
+				
+				document.getElementById('result2').value="¢0";
+				document.getElementById('count2').value="";	
+			}
+			if (fruits[2].checked)
+			{
+				document.getElementById('b3').style.display="inline";
+				price3();
+			}
+			else
+			{
+				
+				document.getElementById('result3').value="¢0";
+				document.getElementById('count3').value="";
+			}
+		}
+		//count function
+		function changecount1() 
+		{
+	
+			document.getElementById('count1').stepup(1);
+		}
+		function changecount2() 
+		{
+			document.getElementById('count2').stepup(1);
+			price2();	
+		}
+		function changecount3() 
+		{
+			document.getElementById('count3').stepup(1);
+			price3();	
+		}
+		
+		//price function
+		function price1()
+		{
+			var total1=document.getElementById('count1').value*59;
+			document.getElementById('result1').value=('¢'+total1);
+		}
+		function price2()
+		{
+			var total2=document.getElementById('count2').value*49;
+			document.getElementById('result2').value=total2;
+		}
+
+		function price3()
+		{
+			var total3=document.getElementById('count3').value*39;
+			document.getElementById('result3').value=total3;
+		}
+
+		//grand total function
+		function display()
+		{
+
+			var total1=document.getElementById('count1').value*59;
+			var total2=document.getElementById('count2').value*49;
+			var total3=document.getElementById('count3').value*39;
+			if(total1==0 && total2==0 && total3==0)
+			{
+				alert("Your Cart is empty!")
+			}
+			else
+			{	
+			var grandtotal=total1+total2+total3;
+			alert("Thank You for shopping with us!"+"\n"+"Your Grand Total :"+"¢"+grandtotal);
+			}
+
+		}
+
+	</script>
+</body>
+</html>
+
